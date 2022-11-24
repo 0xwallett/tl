@@ -1,0 +1,44 @@
+{
+	"blockNumber": "16041173",
+	"amount": "1000000000000000000",
+	"amountDecimals": "1",
+	"quote": "1198554573117692594770",
+	"quoteDecimals": "1198.55457311769259477",
+	"quoteGasAdjusted": "1196935482035726832171",
+	"quoteGasAdjustedDecimals": "1196.935482035726832171",
+	"gasUseEstimateQuote": "1619091081965762598",
+	"gasUseEstimateQuoteDecimals": "1.619091081965762598",
+	"gasUseEstimate": "113000",
+	"gasUseEstimateUSD": "1.619206",
+	"simulationStatus": "UNATTEMPTED",
+	"simulationError": false,
+	"gasPriceWei": "11948150145",
+	"route": [
+		[
+			{
+				"type": "v3-pool",
+				"address": "0x60594a405d53811d3BC4766596EFD80fd545A270",
+				"tokenIn": {
+					"chainId": 1,
+					"decimals": "18",
+					"address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+					"symbol": "WETH"
+				},
+				"tokenOut": {
+					"chainId": 1,
+					"decimals": "18",
+					"address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+					"symbol": "DAI"
+				},
+				"fee": "500",
+				"liquidity": "876432889050619242137640",
+				"sqrtRatioX96": "2287881364648743829578489295",
+				"tickCurrent": "-70898",
+				"amountIn": "1000000000000000000",
+				"amountOut": "1198554573117692594770"
+			}
+		]
+	],
+	"routeString": "[V3] 100.00% = WETH -- 0.05% [0x60594a405d53811d3BC4766596EFD80fd545A270] --> DAI",
+	"quoteId": "2bc12"
+}
